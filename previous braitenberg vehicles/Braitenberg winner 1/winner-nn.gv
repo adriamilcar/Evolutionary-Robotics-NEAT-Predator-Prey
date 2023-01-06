@@ -1,0 +1,14 @@
+digraph {
+	node [fontsize=9 height=0.2 shape=circle width=0.2]
+	IR_1 [fillcolor=lightgray shape=box style=filled]
+	IR_2 [fillcolor=lightgray shape=box style=filled]
+	IR_3 [fillcolor=lightgray shape=box style=filled]
+	IR_4 [fillcolor=lightgray shape=box style=filled]
+	Gr_1 [fillcolor=lightgray shape=box style=filled]
+	Gr_2 [fillcolor=lightgray shape=box style=filled]
+	M_1 [fillcolor=lightblue style=filled]
+	M_2 [fillcolor=lightblue style=filled]
+	IR_3 -> M_2 [color=red penwidth=1.31495688098 style=solid]
+	IR_1 -> M_2 [color=green penwidth=0.411343150912 style=solid]
+	Gr_2 -> M_1 [color=green penwidth=0.614274133156 style=solid]
+}
